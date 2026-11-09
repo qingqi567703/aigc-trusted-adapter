@@ -1,0 +1,10 @@
+{
+  "path": "runs/inference/baseline_s42.pt",
+  "bytes": 308018481,
+  "sha256": "a459efa562bbdb715e9f452f97f0147083466c2353147f3fa9e15a818c068698",
+  "source_checkpoint_sha256": "da3f9607ee947ab1afdc84d22f1bf4fabd8c4cc6403eba0166e21066a6f869fe",
+  "step": 1500,
+  "variant": "baseline",
+  "exact_weight_equality_verified": true,
+  "can_resume_training": false
+}

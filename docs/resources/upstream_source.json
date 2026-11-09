@@ -1,0 +1,115 @@
+{
+  "repo": "https://github.com/TencentARC/T2I-Adapter",
+  "branch": "SD",
+  "commit": "16bba674b472121d5a86e3ed6b935f91d516bc74",
+  "train_url": "https://raw.githubusercontent.com/TencentARC/T2I-Adapter/16bba674b472121d5a86e3ed6b935f91d516bc74/train.py",
+  "train_sha256": "7c39a799723db858be4759a41a859e9abeb1e116b6bdef015c2ced32f810e10a",
+  "note": "Reference implementation reviewed; course runtime is own Diffusers0.30.3 training loop.",
+  "publication": {
+    "title": [
+      "T2I-Adapter: Learning Adapters to Dig Out More Controllable Ability for Text-to-Image Diffusion Models"
+    ],
+    "container-title": [
+      "Proceedings of the AAAI Conference on Artificial Intelligence"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          24
+        ]
+      ]
+    },
+    "page": "4296-4304",
+    "volume": "38",
+    "issue": "5",
+    "DOI": "10.1609/aaai.v38i5.28226",
+    "author": [
+      {
+        "given": "Chong",
+        "family": "Mou",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xintao",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Liangbin",
+        "family": "Xie",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yanze",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jian",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhongang",
+        "family": "Qi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ying",
+        "family": "Shan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ]
+  }
+}

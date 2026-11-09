@@ -1,0 +1,10 @@
+{
+  "path": "all_generated.tar",
+  "bytes": 5194813440,
+  "sha256": "ec1890bfd52f80c731f481a30c84108916164a064fe15a9eb4370f8d5b34d9b3",
+  "png_files": 32000,
+  "unique_png_payloads": 12604,
+  "hardlinks": 19396,
+  "identical_input_checks_passed": true,
+  "seconds": 109.71408005617559
+}

@@ -1,0 +1,25 @@
+{
+  "repo": "TencentARC/t2iadapter_sketch_sd15v2",
+  "revision": "a73a564e35b0956deffd164e1ee463f967c3f952",
+  "download_endpoint": "https://hf-mirror.com",
+  "files": [
+    {
+      "path": "assets\\models\\adapter\\README.md",
+      "bytes": 7915,
+      "sha256": "e51a767eb49474d6a58c26f594c4e38b09f102b98c83cf9d5cf71e1208bdb302",
+      "upstream_sha256": null
+    },
+    {
+      "path": "assets\\models\\adapter\\config.json",
+      "bytes": 208,
+      "sha256": "0739234859007b9e651cc2d081f026e1f40a5594eb6f55ba8dcb310df8b6c98d",
+      "upstream_sha256": null
+    },
+    {
+      "path": "assets\\models\\adapter\\diffusion_pytorch_model.bin",
+      "bytes": 308017523,
+      "sha256": "fae8f2eb4e4646993c1c2c8c73765eb46d7a8cf6579e1ca974374cd10f303434",
+      "upstream_sha256": "fae8f2eb4e4646993c1c2c8c73765eb46d7a8cf6579e1ca974374cd10f303434"
+    }
+  ]
+}

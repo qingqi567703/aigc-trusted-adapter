@@ -1,0 +1,91 @@
+{
+  "frozen_at": "2026-11-08T22:59:28.197843+08:00",
+  "purpose": "Bounded course-level comparison; no top-conference claim from this experiment alone.",
+  "training": {
+    "sd_model": "assets/models/sd15",
+    "adapter_model": "assets/models/adapter",
+    "manifest": "data/manifests/train.jsonl",
+    "resolution": 512,
+    "global_batch": 8,
+    "micro_batch": 4,
+    "max_steps": 1500,
+    "learning_rate": 1e-05,
+    "pair_weight": 0.1,
+    "mixed_precision": "bf16",
+    "checkpoint_unet": true,
+    "checkpoint_every": 500,
+    "max_runtime_seconds": 7200
+  },
+  "primary_variants": [
+    "baseline",
+    "augmented",
+    "premask",
+    "full"
+  ],
+  "training_seeds": [
+    42,
+    43
+  ],
+  "ablation_variants": [
+    "no_pair",
+    "fixed_gate"
+  ],
+  "ablation_seeds": [
+    42
+  ],
+  "generation": {
+    "manifest": "data/manifests/test.jsonl",
+    "selection": "first 400 entries in the already frozen, shuffled 1200-image test manifest",
+    "count": 400,
+    "steps": 25,
+    "seed": 2026,
+    "views": [
+      "clean",
+      "0",
+      "1"
+    ],
+    "guidance_scale": 7.5
+  },
+  "reason_for_400": "Reduce end-to-end time under user priority; remaining 800 test images reserved and unused. Report FID-400 bias; KID/CLIP and task diagnostics accompany it.",
+  "primary_endpoints": [
+    "false-stroke following lift (lower)",
+    "trusted-anchor F1 preservation (higher)"
+  ],
+  "secondary_endpoints": [
+    "CLIP cosine",
+    "KID",
+    "FID-400",
+    "safety filtering counts",
+    "runtime and VRAM"
+  ],
+  "reporting": "All runs reported even when full fails against premask. Image bootstrap is not training-seed uncertainty. Safety sensitivity is secondary and excludes jointly flagged image IDs.",
+  "data_sha256": {
+    "train": "6ca3641b6a13e078bccc9f2cb4351ee5b27f819d5b1b7205eb413aa42eeb031d",
+    "dev": "a6f0b34f47c395235f16c3f20f48752cd00288129969db1130a779c070b344d5",
+    "test": "ae69cf6d1ab3f288f72a68b44fcf8986ce43e8d576b87165725033b08bab93f6"
+  },
+  "source_sha256": {
+    "aigc/common.py": "748e1cd3ae0556ac95a79a72a80f08c4fc6b6f5afde23cc898f9edb727a9faf8",
+    "aigc/data.py": "24b430fe1739b4d997d88e6c6616645668687d4f6f5e0c547af60e67b60b11c8",
+    "aigc/evaluate.py": "0970fb0e59a6f6b3c2c0a5493569892a7f651a790e6d281012cfc92a0f180c89",
+    "aigc/generate.py": "4ebbcc520d175a10dda75823fa7ba640dd87f0acb32973fad307fcaa0b8d73c0",
+    "aigc/metrics.py": "29ab45fb2e105c4eaa44f94dfd9b964986768e2ffac55127aefe9e7a653a623a",
+    "aigc/model.py": "e8890b8062133517891757eb40b1fda1c104838007e5edf8083879532ffdd326",
+    "aigc/train.py": "f4038e2b93e71fc99c2918c78611be29a6e7410c27e57815f4a75984fb574d2f",
+    "aigc/__init__.py": "5bd4451964966881ab120663718cb15abd555d8bece05c0746937df034c51af4",
+    "scripts/bootstrap_linux.sh": "7e191b7c50cde405661e1a15043b706b0ace05240af9bba54072ef2a6cbf96de",
+    "scripts/build_offline.py": "2bdb1650379ef55466129faa75ab708e3d7dd0fb54fe1d13886c5854e7423333",
+    "scripts/cache_latents.py": "a9b12d9f742571173accdb2fac4d40208d048c0c4f01748eee61114f97af9dd9",
+    "scripts/prepare_assets.py": "244770107a324a2b6d30a63127df7b5c4d687c7b84bc78caf0b050f2cb6d4b15",
+    "scripts/prepare_metrics.py": "e68a1121ef89e245f8351feb345a05c2a303ea9fe9b6d24ff8c62fad324f2763",
+    "scripts/run_queue.py": "7da86335ec3f0f114dab5a8fa1921fce34f76321452fcff7bc9857ce48c2e1cd",
+    "scripts/summarize.py": "400d8a9a3dafccc596471d3e5eef7e96082e9e8d666bf2ba761538aa08df0d48",
+    "scripts/verify_bundle.py": "f64adc1f57e067bc60a6fec28595ac870b68a600542c34c9753cf2de385bdff8",
+    "scripts/verify_local.py": "433d91109524bb3fc09b455bff41d6df899a0d2c3f97e08ba79ff58bb25964d9",
+    "configs/course.json": "1e5e363fc8a92b8c3fecb4489218aa5cf5c9d5f39f05c44bdd25a71cfce18ad4",
+    "configs/course_4gpu.json": "ac92243c4557d221a93155a39c470fd78b9e1c9ed3bc1a3e5fb179b60560a72b",
+    "configs/local_512_acceptance.json": "2dbc3a613ebd738682e0654717c6c328010d3afe0304658219fe27154b088336",
+    "configs/pilot.json": "15e9f1e3a74ed53dfda31030bae6cdbf75bfb4ba1ba571021385a439b0579fe4",
+    "configs/smoke.json": "c54e81533541642f0fefb5b23f64fb7358675f669846c65fbde3538adaa452f8"
+  }
+}

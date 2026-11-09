@@ -1,0 +1,10 @@
+{
+  "path": "runs/inference/full_s42.pt",
+  "bytes": 308249729,
+  "sha256": "9f55541be9841ba3edade3f2a801f8f89869359a55d6ee13bd8a6c01b8c88ce0",
+  "source_checkpoint_sha256": "c3ba71a171b6f55253ce3338243a623aaf604ce9914a552bf8c0c4787dbe0ffd",
+  "step": 1500,
+  "variant": "full",
+  "exact_weight_equality_verified": true,
+  "can_resume_training": false
+}

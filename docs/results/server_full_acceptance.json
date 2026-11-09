@@ -1,0 +1,60 @@
+{
+  "torch": "2.2.2",
+  "cuda_runtime": "12.1",
+  "checkpoints": {
+    "baseline_single": {
+      "step": 3,
+      "adapter_parameter_max_change": 3.0077993869781494e-05,
+      "gpu_count": 1,
+      "gradient_accumulation_steps": 8,
+      "global_batch": 8,
+      "status": {
+        "status": "complete",
+        "step": 3,
+        "target_steps": 3,
+        "wall_seconds": 6.172844612970948,
+        "session_wall_seconds": 6.172845955938101,
+        "peak_vram_MiB": 4829.837890625
+      },
+      "trainable_parameter_count": 77000640
+    },
+    "full_single": {
+      "step": 4,
+      "adapter_parameter_max_change": 4.007667303085327e-05,
+      "gpu_count": 1,
+      "gradient_accumulation_steps": 8,
+      "global_batch": 8,
+      "status": {
+        "status": "complete",
+        "step": 4,
+        "target_steps": 4,
+        "wall_seconds": 11.379440175369382,
+        "session_wall_seconds": 3.976215934380889,
+        "peak_vram_MiB": 4839.583984375
+      },
+      "trainable_parameter_count": 77057156,
+      "gate_parameter_max_change": 3.510351962177083e-05
+    },
+    "full_ddp": {
+      "step": 3,
+      "adapter_parameter_max_change": 3.0115246772766113e-05,
+      "gpu_count": 2,
+      "gradient_accumulation_steps": 4,
+      "global_batch": 8,
+      "status": {
+        "status": "complete",
+        "step": 3,
+        "target_steps": 3,
+        "wall_seconds": 6.4511399902403355,
+        "session_wall_seconds": 6.4511410389095545,
+        "peak_vram_MiB": 5135.3671875
+      },
+      "trainable_parameter_count": 77057156,
+      "gate_parameter_max_change": 2.761089308478404e-05
+    }
+  },
+  "offline_inception_feature_shape": [
+    32,
+    2048
+  ]
+}

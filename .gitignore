@@ -1,0 +1,15 @@
+/work/
+/.ssh/
+/.venv/
+/assets/
+/data/
+/runs/
+/offline/
+/outputs/
+.env
+.env.*
+*.pt
+*.pth
+*.safetensors
+__pycache__/
+*.pyc

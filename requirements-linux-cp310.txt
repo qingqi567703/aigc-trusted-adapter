@@ -1,0 +1,14 @@
+-r requirements.txt
+filelock==3.16.1
+importlib-metadata==8.5.0
+importlib-resources==6.4.5
+regex==2024.11.6
+fsspec==2024.10.0
+typing-extensions==4.12.2
+zipp==3.21.0
+charset-normalizer==3.4.1
+idna==3.10
+urllib3==2.2.3
+certifi==2025.1.31
+colorama==0.4.6
+torchvision==0.17.2+cu121

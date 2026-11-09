@@ -1,0 +1,21 @@
+{
+  "sd_model": "assets/models/sd15",
+  "adapter_model": "assets/models/adapter",
+  "manifest": "data/manifests/train.jsonl",
+  "resolution": 512,
+  "global_batch": 8,
+  "micro_batch": 4,
+  "max_steps": 1500,
+  "learning_rate": 1e-05,
+  "pair_weight": 0.1,
+  "mixed_precision": "bf16",
+  "checkpoint_unet": true,
+  "checkpoint_every": 500,
+  "max_runtime_seconds": 7200,
+  "variant": "no_pair",
+  "seed": 42,
+  "gpu_count": 1,
+  "gradient_accumulation_steps": 2,
+  "torch": "2.2.2",
+  "device": "NVIDIA GeForce RTX 4090"
+}

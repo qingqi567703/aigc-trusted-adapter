@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "step": 1500,
+  "target_steps": 1500,
+  "wall_seconds": 978.401799377054,
+  "session_wall_seconds": 978.4018007405102,
+  "peak_vram_MiB": 10163.32666015625
+}

@@ -1,0 +1,26 @@
+{
+  "1": {
+    "exit_code": 0,
+    "feasible": true,
+    "warm_median_seconds": 1.8053560853004456,
+    "peak_vram_MiB": 4840.10595703125
+  },
+  "2": {
+    "exit_code": 0,
+    "feasible": true,
+    "warm_median_seconds": 0.9607580788433552,
+    "peak_vram_MiB": 6469.00048828125
+  },
+  "4": {
+    "exit_code": 0,
+    "feasible": true,
+    "warm_median_seconds": 0.6286231838166714,
+    "peak_vram_MiB": 9919.27001953125
+  },
+  "8": {
+    "exit_code": 0,
+    "feasible": true,
+    "warm_median_seconds": 0.6236475091427565,
+    "peak_vram_MiB": 16524.126953125
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "sd_model": "assets/models/sd15",
+  "adapter_model": "assets/models/adapter",
+  "manifest": "data/manifests/smoke.jsonl",
+  "resolution": 384,
+  "global_batch": 1,
+  "micro_batch": 1,
+  "max_steps": 3,
+  "learning_rate": 0.00001,
+  "pair_weight": 0.1,
+  "mixed_precision": "fp16",
+  "checkpoint_unet": true,
+  "checkpoint_every": 1,
+  "max_runtime_seconds": 3600
+}

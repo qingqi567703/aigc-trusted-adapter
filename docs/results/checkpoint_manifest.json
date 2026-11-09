@@ -1,0 +1,72 @@
+{
+  "augmented_s42": {
+    "path": "runs/course/augmented_s42/last.pt",
+    "bytes": 924049070,
+    "mtime_ns": 1794150962710330000,
+    "sha256": "ea312f6c2ef6258ece3272cb5f85ada39c7bc87d0bb9e4956a27cab1cfa774c2",
+    "step": 1500
+  },
+  "augmented_s43": {
+    "path": "runs/course/augmented_s43/last.pt",
+    "bytes": 924049070,
+    "mtime_ns": 1794151959475883000,
+    "sha256": "594a57acfe93362473435db19ff47a91fa95f62dccdb2545d9145e5f880b30b5",
+    "step": 1500
+  },
+  "baseline_s42": {
+    "path": "runs/course/baseline_s42/last.pt",
+    "bytes": 924049070,
+    "mtime_ns": 1794150962691382000,
+    "sha256": "da3f9607ee947ab1afdc84d22f1bf4fabd8c4cc6403eba0166e21066a6f869fe",
+    "step": 1500
+  },
+  "baseline_s43": {
+    "path": "runs/course/baseline_s43/last.pt",
+    "bytes": 924049070,
+    "mtime_ns": 1794151959253853000,
+    "sha256": "15c3ef045e200717c59fea549b448dfcc62f08edf753a940456d71700b827391",
+    "step": 1500
+  },
+  "fixed_gate_s42": {
+    "path": "runs/course/fixed_gate_s42/last.pt",
+    "bytes": 924049070,
+    "mtime_ns": 1794152961006836000,
+    "sha256": "66a1619469da9dc03a5a7dcd62e2d5ae802452ee63d8f6b3ae13f2cdc3b3dbdc",
+    "step": 1500
+  },
+  "full_s42": {
+    "path": "runs/course/full_s42/last.pt",
+    "bytes": 924743662,
+    "mtime_ns": 1794150962864628000,
+    "sha256": "c3ba71a171b6f55253ce3338243a623aaf604ce9914a552bf8c0c4787dbe0ffd",
+    "step": 1500
+  },
+  "full_s43": {
+    "path": "runs/course/full_s43/last.pt",
+    "bytes": 924743662,
+    "mtime_ns": 1794151959259130000,
+    "sha256": "6461fed8fab531da0661033104259547641d992bd4ed1f3d55ecd27b573b2096",
+    "step": 1500
+  },
+  "no_pair_s42": {
+    "path": "runs/course/no_pair_s42/last.pt",
+    "bytes": 924743726,
+    "mtime_ns": 1794152960974761000,
+    "sha256": "9923867afc181308b11b3c853f3b0eaad9705d186fe5f2d3f10c9bd9f8609dde",
+    "step": 1500
+  },
+  "premask_s42": {
+    "path": "runs/course/premask_s42/last.pt",
+    "bytes": 924049070,
+    "mtime_ns": 1794150962671690000,
+    "sha256": "cabc9369c402447662ef671ff41cf70ecc6bce5d935ae999e29bf5c71019c32c",
+    "step": 1500
+  },
+  "premask_s43": {
+    "path": "runs/course/premask_s43/last.pt",
+    "bytes": 924049070,
+    "mtime_ns": 1794151959297793000,
+    "sha256": "42c86a8b78d6dd0c8acba99fb69e42c3aed677ed652720f7ab8b5b3caa83fc4a",
+    "step": 1500
+  }
+}

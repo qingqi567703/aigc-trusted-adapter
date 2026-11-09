@@ -1,0 +1,11 @@
+{
+  "rule": "First four frozen test-manifest entries, no result-dependent selection",
+  "ids": [
+    304396,
+    21503,
+    468245,
+    246883
+  ],
+  "training_seed": 42,
+  "view": "0"
+}

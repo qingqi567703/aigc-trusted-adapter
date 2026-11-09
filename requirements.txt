@@ -1,0 +1,17 @@
+# Torch and torchvision are supplied by the validated machine environment.
+diffusers==0.30.3
+transformers==4.44.2
+accelerate==0.34.2
+huggingface-hub==0.24.7
+tokenizers==0.19.1
+safetensors==0.4.5
+numpy==1.26.4
+scipy==1.13.1
+Pillow==10.4.0
+opencv-python-headless==4.10.0.84
+PyYAML==6.0.2
+packaging==24.2
+psutil==6.1.1
+requests==2.32.3
+tqdm==4.67.1
+clean-fid==0.1.35

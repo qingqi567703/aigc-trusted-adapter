@@ -1,0 +1,42 @@
+{
+  "augmented_s42": {
+    "warm_step_median_seconds": 0.6414949297904968,
+    "peak_vram_MiB": 10163.32666015625
+  },
+  "augmented_s43": {
+    "warm_step_median_seconds": 0.6455466160550714,
+    "peak_vram_MiB": 10163.32666015625
+  },
+  "baseline_s42": {
+    "warm_step_median_seconds": 0.6411081524565816,
+    "peak_vram_MiB": 10163.32666015625
+  },
+  "baseline_s43": {
+    "warm_step_median_seconds": 0.6419486440718174,
+    "peak_vram_MiB": 10163.32666015625
+  },
+  "fixed_gate_s42": {
+    "warm_step_median_seconds": 0.6538197174668312,
+    "peak_vram_MiB": 10168.80078125
+  },
+  "full_s42": {
+    "warm_step_median_seconds": 0.6364216227084398,
+    "peak_vram_MiB": 10209.337890625
+  },
+  "full_s43": {
+    "warm_step_median_seconds": 0.642808536067605,
+    "peak_vram_MiB": 10209.337890625
+  },
+  "no_pair_s42": {
+    "warm_step_median_seconds": 0.6487605161964893,
+    "peak_vram_MiB": 10209.337890625
+  },
+  "premask_s42": {
+    "warm_step_median_seconds": 0.6430414849892259,
+    "peak_vram_MiB": 10165.1396484375
+  },
+  "premask_s43": {
+    "warm_step_median_seconds": 0.6414155820384622,
+    "peak_vram_MiB": 10165.1396484375
+  }
+}
