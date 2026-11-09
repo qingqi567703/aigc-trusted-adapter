@@ -4,10 +4,11 @@
   "changed_base_files": [
     ".gitignore",
     "docs/COURSE_COMPLIANCE.md",
-    "README.md"
+    "README.md",
+    "requirements-report.txt"
   ],
   "core_source_matches_frozen_protocol": true,
-  "created_at": "2026-11-09T08:10:09.953649+08:00",
+  "created_at": "2026-11-09T08:20:38.428826+08:00",
   "files": [
     {
       "path": ".gitattributes",
@@ -161,8 +162,8 @@
     },
     {
       "path": "docs/PUBLICATION.md",
-      "bytes": 1242,
-      "sha256": "836b967f3ab006d66e44b5c6191cac50dca154aaabcfe56e1ec0dd44a2e38b79"
+      "bytes": 1653,
+      "sha256": "b72284e86ee66ba9d497ab7ec73b9ddf090092c14be39d6c95b843ad6fe90927"
     },
     {
       "path": "docs/REPORT.md",
@@ -645,6 +646,11 @@
       "sha256": "ea597e9b639e86826ea2e4de78ee9bab79b2c71c8f87b206e36be40b2443db2e"
     },
     {
+      "path": "docs/submission/anonymous_report.docx",
+      "bytes": 7118542,
+      "sha256": "eae5c127ca9fca0f07a926a50e6d5c72bcb6663f9977a638ae0dace4598c651c"
+    },
+    {
       "path": "docs/submission/anonymous_report.pdf",
       "bytes": 12811146,
       "sha256": "e2a65ea7e3f5ceabf5f848523f94fcd484e1683b2459522a66d2b1d9d77a3d42"
@@ -656,8 +662,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 13722,
-      "sha256": "10347c21b4fd59b5b5b02b1a9e8300b851779c48c3d1b4267708aca4d3d4c03a"
+      "bytes": 14215,
+      "sha256": "3f95b9b10aa26f1ab252dad970ffd561b9aeb7aa94542d6c6e3f27becc021c59"
     },
     {
       "path": "requirements-linux-cp310.txt",
@@ -666,8 +672,8 @@
     },
     {
       "path": "requirements-report.txt",
-      "bytes": 36,
-      "sha256": "3e6d48c914feba530725d87259e5d08fc5036dc8acb41e9b9d2248a5dd29d8ae"
+      "bytes": 58,
+      "sha256": "b47cac1fc17a0b654fd296dd78056e8fd868cd7b3f4d47e88066411fa904746c"
     },
     {
       "path": "requirements.txt",
@@ -693,6 +699,11 @@
       "path": "scripts/build_report.py",
       "bytes": 18743,
       "sha256": "5d8f0d734993adc3c6744edb67e17216090ed71fb2e7af9d1bcd8cfb09c0ad86"
+    },
+    {
+      "path": "scripts/build_report_docx.py",
+      "bytes": 12663,
+      "sha256": "58d8e0c54cbee757e95cb0acc628d63ecf9296c632c0ce019d4acfcf195f3fbf"
     },
     {
       "path": "scripts/build_source_release.py",

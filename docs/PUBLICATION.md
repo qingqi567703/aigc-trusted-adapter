@@ -4,6 +4,8 @@
 
 本地源码包 SHA-256：`87f084b7f816f20da8b26c09354ee4423c41ef2b791ec85cb08483f6d5f24179`。该版本的逐文件清单另存于 results/local_source_package_manifest.json。发布版本的文件清单为仓库根目录 SOURCE_MANIFEST.json；它不包含自身的哈希。
 
+发布时还将 .gitignore 的资源目录规则限定到仓库根目录，使 docs/results/runs 中的轻量训练日志正常纳入版本控制；.gitattributes 保留源码原始字节并将 PDF、PNG、DOCX 按二进制处理。随后按用户要求添加了 Word 报告、生成脚本和 python-docx 文档依赖。Word 版正文与表格、公式可编辑，已通过本机 Word 排版与逐页检查。
+
 训练、生成和指标核心代码未因发布而改变，仍与测试结果读取前冻结的 source SHA-256 逐项一致，证据见 results/core_source_audit.json。发布不涉及新的训练、测试集调参或结果修改。
 
 包含约 9.24 GB 的十个完整检查点和约 5.19 GB 的全部生成归档已保存在本机并校验，不属于本次公开 Git 仓库内容。第三方模型和 COCO 原图通过固定资源清单重新获取；校内服务器登录材料不在发布目录中。

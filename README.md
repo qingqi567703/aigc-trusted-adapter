@@ -2,7 +2,7 @@
 
 《生成式人工智能导论》课程项目。基于 SD1.5 和 T2I-Adapter 实际微调原适配器，研究局部条件出错时，输入预掩码、多尺度门控和配对训练各自能提供什么改善。当前输入使用从照片提取的 Canny 边缘作为草图代理，真实自由手绘尚未验证。
 
-[匿名实验报告：7 页正文＋参考文献](docs/submission/anonymous_report.pdf) · [课堂汇报：11 页](docs/submission/presentation.pdf) · [可编辑报告](docs/REPORT.md) · [逐种子结果](docs/results/course_results.csv) · [讲解稿](docs/PRESENTATION_NOTES.md) · [答辩问答](docs/DEFENSE_GUIDE.md)
+[匿名实验报告 PDF](docs/submission/anonymous_report.pdf) · [可编辑 Word 报告](docs/submission/anonymous_report.docx) · [课堂汇报：11 页](docs/submission/presentation.pdf) · [报告 Markdown](docs/REPORT.md) · [逐种子结果](docs/results/course_results.csv) · [讲解稿](docs/PRESENTATION_NOTES.md) · [答辩问答](docs/DEFENSE_GUIDE.md)
 
 ## 主论文和代码来源
 
@@ -165,7 +165,10 @@ PDF 复生成另需 requirements-report.txt 的绘图和排版依赖。Windows �
 ```bash
 python scripts/build_report.py --output outputs/匿名实验报告.pdf --slides outputs/课堂汇报.pdf
 python scripts/export_report.py --output docs/REPORT.md
+python scripts/build_report_docx.py --output outputs/匿名实验报告_可编辑.docx
 ```
+
+Word 版本包含原生可编辑正文、5 张表格和 4 个 OMML 公式；方法示意图、训练曲线和生成样例为嵌入图片。本机 Microsoft Word 16.0 的实际排版为正文 7 页、参考文献另 1 页，已逐页检查。其他软件或修改字号后可能重新分页。原 PDF 与 Word 版本使用相同的冻结实验数据和论述。
 
 完整检查点约 9.24 GB，另有完整生成 TAR 约 5.19 GB，保存在本地实验备份中。源码仓库只收录轻量记录及检查点校验清单，不包含第三方权重、原始数据、SSH 密钥或登录配置。仓库地址为 https://github.com/qingqi567703/aigc-trusted-adapter 。本仓库的匿名报告与汇报 PDF 位于 docs/submission；完整本地备份未随源码公开分发。
 
